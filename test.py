@@ -1,0 +1,2 @@
+
+from DestructiveClass import DestructiveClass
