@@ -1,6 +1,6 @@
 import copy
 
-# a wrapper around any object that makes setting attributes destroy the box and return a new box
+# a proxy around any object that makes setting attributes destroy the box and return a new box
 class DestructiveBox(object):
 
     def __init__(self, item):
